@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #464952 ;
+}
+
+
+header {
+    
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block; /* Change to inline-block for padding and border-radius */
+    margin: 5px;
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    overflow: hidden; /* Ensure the rounded corners are applied */
+}
+
+nav ul li a {
+    color: #ffffff; /* Original color */
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for color and background change */
+    padding: 10px 15px; /* Add padding for better spacing */
+    display: inline-block; /* Ensure the anchor takes the full area of the list item */
+}
+
+nav ul li a:hover {
+    color: #000000; /* Change text color on hover */
+    background-color: #ffffff; /* Lighter background color on hover */
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2c3e50;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%; /* Increased width for a more spacious layout */
+    margin: 40px auto; /* Added margin for spacing from top */
+    background-color: white;
+    padding: 30px; /* Increased padding for better spacing */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Slightly stronger shadow */
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    border: 1px solid #ccc;
+    padding: 15px; /* Increased padding for list items */
+    margin: 10px 0; /* Increased margin for list items */
+    transition: background-color 0.3s;
+}
+
+ul li:hover {
+    background-color: #f7f7f7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0; /* Increased margin for spacing */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 15px; /* Increased padding for table cells */
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em; /* Slightly increased font size */
+    color: #777;
+    margin-top: 40px; /* Increased margin for spacing */
+    padding: 20px; /* Increased padding for better spacing */
+    background-color: #f7f7f7;
+    border-top: 1px solid #ccc;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ehan Badenhorst</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        
+    
+        #hobbies, table {
+            margin: 20px 0;
+            transition: transform 0.3s;
+        }
+        #hobbies li, table tr {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+        }
+        #hobbies li:hover, table tr:hover {
+            transform: scale(1.05);
+            background-color: #e0e0e0;
+        }
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        button:hover {
+            transform: scale(1.1);
+            background-color: #425b75;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Webpage</h1>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About me.html">About</a></li>
+                <li><a href="Contact me.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <p>Welcome to my webpage! Here you can find information about my hobbies and interests.</p>
+            </section>
+            <h1>Hobbies</h1>
+            <ul id="hobbies" aria-label="List of hobbies">
+                <li>Walking in the mountans</li>
+                <li>Traveling and seaing new things</li>
+                <li>Coding </li>
+                <li>Motorciceling on the farm</li>
+                <li>Working on the farm</li>
+            </ul>
+            <table>
+               <h1>Favoret Movies/Series </h1>
+                <thead>
+                    <tr>
+                        <th>Movie name</th>
+                        <th>Mekers</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Avendgers end game</td>
+                        <td>MARVEL</td>
+                    </tr>
+                    <tr>
+                        <td>The Dictator</td>
+                        <td>Sacha Baron Cohen</td>
+                    </tr>
+                    <tr>
+                        <td>How to sell drugs online "Fast"</td>
+                        <td>Netflix</td>
+                    </tr>
+                    <tr>
+                        <td>Orknie snork nie</td>
+                        <td>Sabc 3</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="aboutMeBtn" aria-label="About Me button"><li><a href="About me.html">About me</a></li></button>
+        </div>
+    </main>
+    <footer>
+        <form id="welcomeForm" aria-label="Welcome form">
+            <input type="text" id="nameInput" placeholder="Enter your name" required aria-label="Name input">
+            <button type="submit" aria-label="Submit button">Submit</button>
+        </form>
+        <p>&copy; 2023 My Webpage</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>
